@@ -56,7 +56,7 @@ author: zx
 
 详细指路[菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html) [简书Markdown语法大全(超级版) ](https://www.jianshu.com/p/ebe52d2d468f) [Markdown语法教程](https://markdown.com.cn/) , etc.
 
-较全面使用`markmap`**至少**掌握以下语法
+较全面使用`markmap`**推荐**掌握以下语法 **至少掌握标题&段落**
 
 **注意以下语法均使用英文符号！！！**
 
