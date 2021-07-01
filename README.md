@@ -1,6 +1,8 @@
-# VS Code & markmap 实现思维导图
+# 配置VS Code & markmap 教程
 
 author: zx
+
+![markmap项目地址](https://github.com/gera2ld/markmap)
 
 ## 0x00 效果预览
 
