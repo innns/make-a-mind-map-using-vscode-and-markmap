@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.3.1"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.2"></script><script>(getMarkmap => {
+          window.WebFontConfig = {
+            custom: {
+              families: ['KaTeX_AMS', 'KaTeX_Caligraphic:n4,n7', 'KaTeX_Fraktur:n4,n7', 'KaTeX_Main:n4,n7,i4,i7', 'KaTeX_Math:i4,i7', 'KaTeX_Script', 'KaTeX_SansSerif:n4,n7,i4', 'KaTeX_Size1', 'KaTeX_Size2', 'KaTeX_Size3', 'KaTeX_Size4', 'KaTeX_Typewriter']
+            },
+            active: () => {
+              getMarkmap().refreshHook.call();
+            }
+          };
+        })(() => window.markmap)</script><script src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" defer></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{},"v":"第一层","c":[{"t":"heading","d":2,"p":{},"v":"第二层","c":[{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://www.baidu.com\">https://www.baidu.com</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://baidu.com\">Baidu</a>"}]},{"t":"heading","d":2,"p":{},"v":"还是第二层","c":[{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://cn.bing.com\">Bing</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://www.google.com\">Google</a>"}]},{"t":"heading","d":2,"p":{},"v":"特性","c":[{"t":"list_item","d":4,"p":{},"v":"链接"},{"t":"list_item","d":4,"p":{},"v":"<strong>行内</strong> <del>文字</del> <em>样式</em>"},{"t":"list_item","d":4,"p":{},"v":"多行<br>\n文本"},{"t":"list_item","d":4,"p":{},"v":"<code>inline code</code>"},{"t":"list_item","d":4,"p":{},"v":"<pre class=\"language-python\"><code class=\"language-python\"><span class=\"token keyword\">print</span><span class=\"token punctuation\">(</span><span class=\"token string\">\"Hiiiiiiii\"</span><span class=\"token punctuation\">)</span>\n</code></pre>\n"},{"t":"list_item","d":4,"p":{},"v":"<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mrow><mi>a</mi><mo stretchy=\"false\">(</mo><mn>1</mn><mo>−</mo><mi>sin</mi><mo>⁡</mo><mi>θ</mi><mo stretchy=\"false\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">r = {a(1 - \\sin \\theta)}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.43056em;vertical-align:0em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">r</span><span class=\"mspace\" style=\"margin-right:0.2777777777777778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2777777777777778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">a</span><span class=\"mopen\">(</span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mop\">sin</span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">θ</span><span class=\"mclose\">)</span></span></span></span></span>"}]}]})</script>
+</body>
+</html>
