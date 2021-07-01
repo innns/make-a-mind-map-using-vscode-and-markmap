@@ -4,7 +4,7 @@ author: zx
 
 ## 0x00 效果预览
 
-![image-20210309194543608](VS Code & markmap 实现思维导图.assets\image-20210309194543608.png)
+![image-20210309194543608](pic\image-20210309194543608.png)
 
 ## 0x01 准备工作
 
@@ -17,7 +17,7 @@ author: zx
 
 [Visual Studio Code 官网](https://code.visualstudio.com/)
 
-![image-20210309172213050](VS Code & markmap 实现思维导图.assets/image-20210309172213050.png)
+![image-20210309172213050](pic/image-20210309172213050.png)
 
 点击`Download`
 
@@ -25,7 +25,7 @@ author: zx
 
 [详细安装教程](https://blog.csdn.net/Zhangguohao666/article/details/105665412)
 
-![image-20210309172351573](VS Code & markmap 实现思维导图.assets/image-20210309172351573.png)
+![image-20210309172351573](pic/image-20210309172351573.png)
 
 这里我会**全部**都选上
 
@@ -33,7 +33,7 @@ author: zx
 
 1. 打开`VS Code` 点击左侧栏目的`扩展`或者按`Ctrl` `Shift` + `X` 打开扩展
 
-![image-20210309173100219](VS Code & markmap 实现思维导图.assets\image-20210309173100219.png)
+![image-20210309173100219](pic\image-20210309173100219.png)
 
 搜索栏中搜索并安装
 
@@ -77,17 +77,17 @@ author: zx
 ---
 ```
 
-###### ![image-20210309181802489](VS Code & markmap 实现思维导图.assets\image-20210309181802489.png)
+###### ![image-20210309181802489](pic\image-20210309181802489.png)
 
 #### 段落
 
 Markdown 段落没有特殊的格式，直接编写文字就好，**段落的换行是使用两个以上空格加上回车**。
 
-![img](VS Code & markmap 实现思维导图.assets\36A89BDA-A062-4D66-A41B-0EBEE7891AB9.jpg)
+![img](pic\36A89BDA-A062-4D66-A41B-0EBEE7891AB9.jpg)
 
 当然也可以在段落后面使用一个空行来表示重新开始一个段落。
 
-![img](VS Code & markmap 实现思维导图.assets\3F254936-778E-417A-BEF2-467116A55D00.jpg)
+![img](pic\3F254936-778E-417A-BEF2-467116A55D00.jpg)
 
 ```
 *斜体文本*
@@ -141,7 +141,7 @@ ___粗斜体文本___
 
 ----------
 
-![image-20210309192237204](VS Code & markmap 实现思维导图.assets\image-20210309192237204.png)
+![image-20210309192237204](pic\image-20210309192237204.png)
 
 #### 列表
 
@@ -166,7 +166,7 @@ Markdown 支持有序列表和无序列表。
 
 显示结果如下：
 
-![img](VS Code & markmap 实现思维导图.assets\89446A8E-6D83-4666-AACC-980145D5F070.jpg)
+![img](pic\89446A8E-6D83-4666-AACC-980145D5F070.jpg)
 
 有序列表使用数字并加上 `.`号来表示，如：
 
@@ -178,7 +178,7 @@ Markdown 支持有序列表和无序列表。
 
 显示结果如下：
 
-![img](VS Code & markmap 实现思维导图.assets\560384BB-2B00-41D5-ACF2-18972F7F2775.jpg)
+![img](pic\560384BB-2B00-41D5-ACF2-18972F7F2775.jpg)
 
 #### 链接
 
@@ -200,7 +200,7 @@ Markdown 支持有序列表和无序列表。
 
 显示结果如下：
 
-![img](VS Code & markmap 实现思维导图.assets\49E6CB42-F780-4DA6-8290-DC757B51FB9A.jpg)
+![img](pic\49E6CB42-F780-4DA6-8290-DC757B51FB9A.jpg)
 
 直接使用链接地址：
 
@@ -210,7 +210,7 @@ Markdown 支持有序列表和无序列表。
 
 显示结果如下：
 
-![img](VS Code & markmap 实现思维导图.assets\9BFF60A1-DD71-4B63-987B-4665B31C7787.jpg)
+![img](pic\9BFF60A1-DD71-4B63-987B-4665B31C7787.jpg)
 
 ##### 高级链接
 
@@ -227,13 +227,13 @@ Markdown 支持有序列表和无序列表。
 
 显示结果如下：
 
-![img](VS Code & markmap 实现思维导图.assets\EC3ED5D2-4F0D-492A-81B3-D485623D1A9E.jpg)
+![img](pic\EC3ED5D2-4F0D-492A-81B3-D485623D1A9E.jpg)
 
 ### markmap语法
 
 参考[Try markmap](https://markmap.js.org/repl)
 
-![image-20210309192705956](VS Code & markmap 实现思维导图.assets\image-20210309192705956.png)
+![image-20210309192705956](pic\image-20210309192705956.png)
 
 
 ```markdown
@@ -271,7 +271,7 @@ Markdown 支持有序列表和无序列表。
 
 **新建文件夹** 或者 **找一个已有的文件夹**
 
-![image-20210309194704951](VS Code & markmap 实现思维导图.assets\image-20210309194704951.png)
+![image-20210309194704951](pic\image-20210309194704951.png)
 
 右键点击`通过Code打开`
 
@@ -279,19 +279,19 @@ Markdown 支持有序列表和无序列表。
 
 #### 2 新建文件或打开文件
 
-![image-20210309194929934](VS Code & markmap 实现思维导图.assets\image-20210309194929934.png)
+![image-20210309194929934](pic\image-20210309194929934.png)
 
 #### 3 导出
 
 **标题栏**-**查看**-**命令面板**
 
-![image-20210309195129167](VS Code & markmap 实现思维导图.assets\image-20210309195129167.png)
+![image-20210309195129167](pic\image-20210309195129167.png)
 
-![image-20210309195157796](VS Code & markmap 实现思维导图.assets\image-20210309195157796.png)
+![image-20210309195157796](pic\image-20210309195157796.png)
 
 搜索并点击`Open as markmap`
 
 点击右下角`Export`即可输出`html`文件 可以用浏览器打开
 
-![image-20210309195405519](VS Code & markmap 实现思维导图.assets\image-20210309195405519.png)
+![image-20210309195405519](pic\image-20210309195405519.png)
 
