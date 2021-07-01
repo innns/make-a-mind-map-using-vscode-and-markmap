@@ -41,8 +41,8 @@ author: zx
 + `yzhang.markdown-all-in-one` Markdown拓展
 + `shd101wyy.markdown-preview-enhanced` Markdown拓展
 + `gera2ld.markmap-vscode` **markdown转思维导图**
-+ `coenraads.bracket-pair-colorizer` 括号配对 （可选）
-+ `oderwat.indent-rainbow` 缩减彩色显示 （可选）
++ `coenraads.bracket-pair-colorizer` 括号彩色配对 （可选）
++ `oderwat.indent-rainbow` 缩进彩色显示 （可选）
 
 ### 安装Typora （可选）
 
